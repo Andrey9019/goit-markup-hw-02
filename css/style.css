@@ -1,0 +1,70 @@
+:root {
+  --primery-text-color: ;
+}
+
+/* Color  */
+/* цвет текста темно-серый   #2E2F42 */
+/* цвет лого #4D5AE5 */
+/* color hero #FFFFFF */
+/* color абзац  #434455 */
+/*  цвет футера #F4F4FD #4D5AE5 */
+/* color fon  #F4F4FD  */
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* header */
+.header {
+  background-color: rgba(231, 233, 252, 1);
+}
+.header .header-logo1 {
+  color: #4d5ae5;
+}
+.header .header-logo2 {
+  color: #2e2f42;
+}
+.header .header-link {
+  color: #2e2f42;
+}
+.header .header-address {
+  color: #434455;
+}
+
+/* main */
+
+.section .section-headline {
+  color: #2e2f42;
+}
+.section .section-paragraf {
+  color: #434455;
+}
+
+/* footer */
+
+.footer-linklogo1 {
+  color: #4d5ae5;
+}
+.footer-linklogo2 {
+  color: #f4f4fd;
+}
+.footer-paragraf {
+  color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+
+/* Стилі portfolio.html */
+.button {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
