@@ -61,7 +61,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-style-2 {
+.logo-header {
   color: var(--dark);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -70,7 +70,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-style-3 {
+.logo-footer {
   color: var(--light);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -231,4 +231,20 @@ body {
 .btn-nav-portfolio:focus {
   color: var(--light-background);
   background-color: var(--pressed-state);
+}
+
+/* portfolio */
+.listen-project {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.listen-project-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
