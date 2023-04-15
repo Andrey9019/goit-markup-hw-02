@@ -81,8 +81,7 @@ body {
 }
 
 /* header */
-.header {
-}
+
 .header-nav {
   font-family: 'Roboto';
   font-weight: 500;
@@ -156,6 +155,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.section-team-item {
+  background-color: var(--light-background);
+}
 .section-name {
   font-weight: 500;
   font-size: 20px;
@@ -186,6 +188,7 @@ body {
 
 .list {
   list-style-type: normal;
+  list-style: none;
 }
 /* style button */
 
@@ -214,14 +217,14 @@ body {
 }
 
 .btn-nav-portfolio {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
-  color: var(--pressed-state);
-  background-color: #e7e9fc;
+  color: var(--primary-brand);
+  background-color: var(--light);
   cursor: pointer;
 }
 .btn-nav-portfolio:hover,
