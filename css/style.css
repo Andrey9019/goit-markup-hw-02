@@ -106,6 +106,7 @@ body {
 /* hero */
 .hero {
   background-color: var(--dark);
+  text-align: center;
 }
 .hero-txt {
   color: var(--light-background);
@@ -156,6 +157,12 @@ body {
   text-transform: capitalize;
 }
 .section-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .section-name-prof {
   color: var(--text);
@@ -169,6 +176,7 @@ body {
 }
 
 .link {
+  font-style: normal;
   text-decoration: none;
 }
 .link:hover,
@@ -194,7 +202,9 @@ body {
   color: var(--light-background);
   background-color: var(--primary-brand);
 }
-
+.hero-button {
+  line-height: 1.5;
+}
 .hero-button:hover,
 .hero-button:focus,
 .hero-button-text:hover,
