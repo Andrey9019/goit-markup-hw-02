@@ -148,6 +148,8 @@ body {
   color: var(--dark);
 }
 .section-name-prof {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 /* footer */
