@@ -32,11 +32,7 @@ body {
   background-color: var(--light-background);
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
+  line-height: 16px;
   color: var(--text);
 }
 
@@ -63,12 +59,6 @@ body {
 }
 .logo-header {
   color: var(--dark);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .logo-footer {
   color: var(--light);
@@ -83,7 +73,6 @@ body {
 /* header */
 
 .header-nav {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,7 +81,6 @@ body {
 }
 .header-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
@@ -117,8 +105,6 @@ body {
 
 /* section 2 */
 .section-listen {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,9 +112,6 @@ body {
   color: var(--dark);
 }
 .section-listen-item {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -146,8 +129,6 @@ body {
   background-color: var(--light);
 }
 .section-headline {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -178,7 +159,6 @@ body {
 }
 
 .link {
-  font-style: normal;
   text-decoration: none;
 }
 .link:hover,
@@ -187,7 +167,6 @@ body {
 }
 
 .list {
-  list-style-type: normal;
   list-style: none;
 }
 /* style button */
@@ -195,25 +174,22 @@ body {
 .hero-button,
 .hero-button-text {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.35;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--light-background);
   background-color: var(--primary-brand);
 }
 .hero-button {
   line-height: 1.5;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus,
 .hero-button-text:hover,
 .hero-button-text:focus {
   background-color: var(--pressed-state);
-  cursor: pointer;
 }
 
 .btn-nav-portfolio {
@@ -221,7 +197,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   background-color: var(--light);
@@ -242,7 +217,6 @@ body {
   color: var(--dark);
 }
 .listen-project-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
